@@ -6,7 +6,17 @@
   console.log(number);
 };*/
 
-/*function summ (number2) {*/
-  for(let number=1,num=0;number<=100;number+++(number++)){
-        console.log(number);
+function summ () {
+  for(let number=1,num=0;number<=100;number++){
+        console.log(num+=number);
   }
+}
+
+function number (){
+do {num= +prompt('2+2*2');
+} while (num <6 || num >6);
+};
+
+for(let num= +prompt('2+2*2');num <6 || num >6;num= +prompt('2+2*2')) {
+ 
+};
